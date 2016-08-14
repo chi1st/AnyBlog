@@ -13,6 +13,7 @@ def rebuild_db():
 
 def run():
     config = dict(
+        # host='0.0.0.0',
         port=9990,
         debug=True,
     )

@@ -15,7 +15,7 @@ def init_app():
 
     # 初始化并配置 flask
     app = Flask(__name__)
-    # 这一行 加了就没 warning
+    # 这一行 加了就没 warning(
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
     # 设置你的加密 key
     app.secret_key = 'TODO fixme'
